@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saqib</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar">
+        <a class="header" href="./index.html"> Saqib </a>
+        <div class="menu">
+          <a class="menu-item" href="./conference.html">Conference</a>
+          <a class="menu-item" href="./writing.html">Writing</a>
+          <a class="menu-item" href="./contact.html">Contact</a>
+        </div>
+      </div>
+      <div class="body">
+        <p class="saqib-intro">Every coder has their journey. This is mine!</p>
+        <div class="hr"></div>
+        <p>
+          I’m Saqib. I run
+          <a href="https://devorigin.info">devOrigin</a>, a
+          <span class="emphasis">software engineering residency</span>. I'm a
+          Software Engineer with a strong learning mindset, working in a remote
+          startup. I have done my engineering from
+          <a href="https://www.lpu.in/">LPU</a>.
+        </p>
+        <p>
+          I enjoy diving deeper into engineering topics by reading books -
+          <a href="./books.html">here's a list</a>. Currently, I'm reading the
+          <a href="https://www.advanced-react.com/">Advanced-React</a> book and
+          <a href="https://awsfundamentals.com/">AWS Fundamentals</a>.
+        </p>
+
+        <p>
+          I dive deep into engineering details and share my learnings across
+          different <a href="./writing.html">platforms</a>.
+        </p>
+        <p>
+          I have successfully
+          <a href="https://topmate.io/iamsaqib24">assisted</a> numerous
+          individuals in crafting impressive resumes, acing interviews, and
+          securing their first jobs. As a next step, I am excited to announce
+          that I will be teaching full-stack development on
+          <a href="https://devorigin.info">devOrigin</a> with absolute
+          confidence and conviction.
+        </p>
+        <img data-src="images/Mine.jpg" alt="Saqib" />
+      </div>
+    </div>
+    <div class="footer">@Saqib</div>
+  </body>
+  <script type="text/javascript">
+    [].forEach.call(document.querySelectorAll("img[data-src]"), function (img) {
+      img.setAttribute("src", img.getAttribute("data-src"));
+      img.onload = function () {
+        img.removeAttribute("data-src");
+      };
+    });
+  </script>
+</html>
